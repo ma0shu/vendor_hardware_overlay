@@ -134,14 +134,43 @@ rm -f tests/priorities
 
 #Check overlay.mk has all overlays
 (
-    a=$(mktemp)
-    b=$(mktemp)
-    find -name \*.mk |xargs sed -n -e 's;LOCAL_PACKAGE_NAME\s*:=\s*;;p' |grep treble-overlay | sort > $a
-    sed -nE 's;.*(treble-overlay-[^ ]*).*;\1;p' < overlay.mk|sort > $b
-    if diff $a $b |grep -qE .;then
-        fail overlay.mk "Not all overlays are listed in overlay.mk"
-        diff $a $b
+    echo "Checking if overlay.mk lists all defined overlays..."
+    
+    defined_packages=$(mktemp)
+    listed_packages=$(mktemp)
+    
+    # Find all .mk files, grep for the definition line, then use awk to reliably extract the package name.
+    # awk is much more portable and reliable for this than complex sed. It prints the 4th field.
+    find . -name "*.mk" | xargs grep "LOCAL_PACKAGE_NAME *:=" | awk '{print $4}' | grep 'treble-overlay' | sort -u > "$defined_packages"
+    
+    # Extract from overlay.mk. Using grep and awk is also safer here.
+    grep 'treble-overlay' < overlay.mk | awk '{print $1}' | sort -u > "$listed_packages"
+    
+    # Use comm to find differences
+    missing_from_mk=$(comm -23 "$defined_packages" "$listed_packages")
+    unnecessary_in_mk=$(comm -13 "$defined_packages" "$listed_packages")
+
+    has_error=false
+    if [ -n "$missing_from_mk" ]; then
+        echo "Fatal: overlay.mk: The following overlays are defined in .mk files but are NOT listed in overlay.mk:"
+        echo "$missing_from_mk"
+        has_error=true
     fi
+
+    if [ -n "$unnecessary_in_mk" ]; then
+        echo "Fatal: overlay.mk: The following overlays are listed in overlay.mk but their definition was NOT found:"
+        echo "$unnecessary_in_mk"
+        has_error=true
+    fi
+
+    if [ "$has_error" = true ]; then
+        touch fail
+    else
+        echo "Check passed: overlay.mk is perfectly in sync with project definitions."
+    fi
+
+    # Clean up
+    rm "$defined_packages" "$listed_packages"
 )
 
 if [ -f fail ];then exit 1; fi

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <bool name="config_enableBurnInProtection">false</bool>
+
+    <dimen name="status_bar_height_default">40dp</dimen>
+    <dimen name="status_bar_height">40dp</dimen>
+    <dimen name="status_bar_height_portrait">40dp</dimen>
+    <dimen name="status_bar_height_landscape">40dp</dimen>
+    <dimen name="quick_qs_offset_height">48dp</dimen>
+
+    <integer name="config_screenBrightnessDoze">2</integer>
+    <integer name="config_screenBrightnessSettingMinimum">2</integer>
+
+    <string name="config_mainBuiltInDisplayCutout">M 116.49 0 a 3.18 3.18 0 0 0 -3.18 3.18 v 8.5108 a 35.5061 35.5061 0 0 1 -35.5061 35.5061 H -77.804 A 35.5061 35.5061 0 0 1 -113.31 11.6905 V 3.18 A 3.18 3.18 0 0 0 -116.49 0 Z</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 116.49 0 a 3.18 3.18 0 0 0 -3.18 3.18 v 8.5108 a 35.5061 35.5061 0 0 1 -35.5061 35.5061 H -77.804 A 35.5061 35.5061 0 0 1 -113.31 11.6905 V 3.18 A 3.18 3.18 0 0 0 -116.49 0 Z</string>
+</resources>
