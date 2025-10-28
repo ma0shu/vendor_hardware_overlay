@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_ambientThresholdsOfPeakRefreshRate">
+        <item>-1</item>
+    </integer-array>
+    <array name="config_autoBrightnessDisplayValuesNits">
+        <item>6.0125</item>
+        <item>80.2</item>
+        <item>80.2</item>
+        <item>80.2</item>
+        <item>96.75</item>
+        <item>96.75</item>
+        <item>111.8</item>
+        <item>144.3</item>
+        <item>144.3</item>
+        <item>144.3</item>
+        <item>144.3</item>
+        <item>156.2</item>
+        <item>220.4</item>
+        <item>260.0</item>
+        <item>288.5</item>
+        <item>315.4</item>
+        <item>330.0</item>
+        <item>363.6</item>
+        <item>366.6</item>
+    </array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>16</item>
+        <item>32</item>
+        <item>50</item>
+        <item>100</item>
+        <item>140</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>600</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>8000</item>
+        <item>10000</item>
+    </integer-array>
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+        <item>1:8:4095</item>
+    </string-array>
+    <integer-array name="config_brightnessThresholdsOfPeakRefreshRate">
+        <item>16</item>
+    </integer-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/boot-framework.vdex</item>
+        <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/oat/arm64/services.vdex</item>
+        <item>/system/framework/arm64/boot.oat</item>
+        <item>/system/framework/boot.vdex</item>
+        <item>/system/framework/arm64/boot-core-libart.oat</item>
+        <item>/system/framework/boot-core-libart.vdex</item>
+        <item>/system/framework/framework-res.apk</item>
+    </string-array>
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="config_screenBrightnessBacklight">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>75</item>
+        <item>90</item>
+        <item>105</item>
+        <item>120</item>
+        <item>135</item>
+        <item>150</item>
+        <item>165</item>
+        <item>180</item>
+        <item>195</item>
+        <item>210</item>
+        <item>225</item>
+        <item>240</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_screenBrightnessNits">
+        <item>0.0125</item>
+        <item>3.2</item>
+        <item>4.0125</item>
+        <item>4.448</item>
+        <item>4.85</item>
+        <item>5.4</item>
+        <item>5.92</item>
+        <item>6.325</item>
+        <item>7.2</item>
+        <item>8.25</item>
+        <item>9.3</item>
+        <item>10.39</item>
+        <item>33.07</item>
+        <item>57.41</item>
+        <item>80.02</item>
+        <item>104.3</item>
+        <item>126.7</item>
+        <item>150.3</item>
+        <item>172.3</item>
+        <item>195.4</item>
+        <item>216.9</item>
+        <item>239.6</item>
+        <item>260.0</item>
+        <item>281.9</item>
+        <item>302.0</item>
+        <item>323.3</item>
+        <item>343.1</item>
+        <item>363.6</item>
+    </array>
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>bt-pan</item>
+    </string-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis0</item>
+        <item>usb0</item>
+    </string-array>
+    <string-array name="supported_locales">
+        <item>am-ET</item>
+        <item>ar-EG</item>
+        <item>ar-XB</item>
+        <item>as-IN</item>
+        <item>bn-BD</item>
+        <item>ca-ES</item>
+        <item>de-DE</item>
+        <item>el-GR</item>
+        <item>en-AG</item>
+        <item>en-AI</item>
+        <item>en-AS</item>
+        <item>en-AT</item>
+        <item>en-AU</item>
+        <item>en-BB</item>
+        <item>en-BE</item>
+        <item>en-BI</item>
+        <item>en-BM</item>
+        <item>en-BS</item>
+        <item>en-BW</item>
+        <item>en-BZ</item>
+        <item>en-CA</item>
+        <item>en-CC</item>
+        <item>en-CH</item>
+        <item>en-CK</item>
+        <item>en-CM</item>
+        <item>en-CX</item>
+        <item>en-CY</item>
+        <item>en-DE</item>
+        <item>en-DG</item>
+        <item>en-DK</item>
+        <item>en-DM</item>
+        <item>en-ER</item>
+        <item>en-FI</item>
+        <item>en-FJ</item>
+        <item>en-FK</item>
+        <item>en-FM</item>
+        <item>en-GB</item>
+        <item>en-GD</item>
+        <item>en-GG</item>
+        <item>en-GH</item>
+        <item>en-GI</item>
+        <item>en-GM</item>
+        <item>en-GU</item>
+        <item>en-GY</item>
+        <item>en-HK</item>
+        <item>en-IE</item>
+        <item>en-IL</item>
+        <item>en-IM</item>
+        <item>en-IN</item>
+        <item>en-IO</item>
+        <item>en-JE</item>
+        <item>en-JM</item>
+        <item>en-KE</item>
+        <item>en-KI</item>
+        <item>en-KN</item>
+        <item>en-KY</item>
+        <item>en-LC</item>
+        <item>en-LR</item>
+        <item>en-LS</item>
+        <item>en-MG</item>
+        <item>en-MH</item>
+        <item>en-MO</item>
+        <item>en-MP</item>
+        <item>en-MS</item>
+        <item>en-MT</item>
+        <item>en-MU</item>
+        <item>en-MW</item>
+        <item>en-MY</item>
+        <item>en-NA</item>
+        <item>en-NF</item>
+        <item>en-NG</item>
+        <item>en-NL</item>
+        <item>en-NR</item>
+        <item>en-NU</item>
+        <item>en-NZ</item>
+        <item>en-PG</item>
+        <item>en-PH</item>
+        <item>en-PK</item>
+        <item>en-PN</item>
+        <item>en-PR</item>
+        <item>en-PW</item>
+        <item>en-RW</item>
+        <item>en-SB</item>
+        <item>en-SC</item>
+        <item>en-SD</item>
+        <item>en-SE</item>
+        <item>en-SG</item>
+        <item>en-SH</item>
+        <item>en-SI</item>
+        <item>en-SL</item>
+        <item>en-SS</item>
+        <item>en-SX</item>
+        <item>en-SZ</item>
+        <item>en-TC</item>
+        <item>en-TK</item>
+        <item>en-TO</item>
+        <item>en-TT</item>
+        <item>en-TV</item>
+        <item>en-TZ</item>
+        <item>en-UG</item>
+        <item>en-UM</item>
+        <item>en-US</item>
+        <item>en-VC</item>
+        <item>en-VG</item>
+        <item>en-VI</item>
+        <item>en-VU</item>
+        <item>en-WS</item>
+        <item>en-XA</item>
+        <item>en-ZA</item>
+        <item>en-ZM</item>
+        <item>en-ZW</item>
+        <item>es-ES</item>
+        <item>es-US</item>
+        <item>eu-ES</item>
+        <item>fa-IR</item>
+        <item>fi-FI</item>
+        <item>fil-PH</item>
+        <item>fr-FR</item>
+        <item>gl-ES</item>
+        <item>gu-IN</item>
+        <item>hi-IN</item>
+        <item>hu-HU</item>
+        <item>in-ID</item>
+        <item>it-IT</item>
+        <item>km-KH</item>
+        <item>kn-IN</item>
+        <item>lo-LA</item>
+        <item>ml-IN</item>
+        <item>mr-IN</item>
+        <item>ms-MY</item>
+        <item>my-MM</item>
+        <item>ne-NP</item>
+        <item>nl-NL</item>
+        <item>or-IN</item>
+        <item>pa-Guru-IN</item>
+        <item>pt-BR</item>
+        <item>pt-PT</item>
+        <item>ru-RU</item>
+        <item>si-LK</item>
+        <item>sq-AL</item>
+        <item>sw-TZ</item>
+        <item>ta-IN</item>
+        <item>te-IN</item>
+        <item>th-TH</item>
+        <item>tr-TR</item>
+        <item>uk-UA</item>
+        <item>ur-PK</item>
+        <item>vi-VN</item>
+        <item>zh-Hans-CN</item>
+        <item>zh-Hant-HK</item>
+        <item>zh-Hant-TW</item>
+    </string-array>
+
+    <bool name="config_automatic_brightness_available">false</bool>
+    <bool name="config_carrier_volte_available">true</bool>
+    <bool name="config_carrier_volte_provisioned">true</bool>
+    <bool name="config_carrier_volte_tty_supported">false</bool>
+    <bool name="config_carrier_vt_available">true</bool>
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_vt_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
+    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_enableAutoPowerModes">true</bool>
+    <bool name="config_enableDtmfLocalTone">true</bool>
+    <bool name="config_enableWifiDisplay">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_wifi_framework_enable_associated_network_selection">false</bool>
+    <bool name="config_wifi_wlanPlus_supported">true</bool>
+    <bool name="config_zramWriteback">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="useImsAlwaysForEmergencyCall">false</bool>
+
+    <dimen name="config_screenBrightnessSettingMaximumFloat">1.0</item>
+    <dimen name="config_screenBrightnessSettingMinimumFloat">0.0</item>
+    <dimen name="status_bar_height_default">40dp</dimen>
+    <dimen name="status_bar_height">40dp</dimen>
+    <dimen name="status_bar_height_portrait">40dp</dimen>
+    <dimen name="status_bar_height_landscape">40dp</dimen>
+    <dimen name="quick_qs_offset_height">48dp</dimen>
+    <dimen name="status_bar_padding_start">16dp</dimen>
+    <dimen name="status_bar_padding_end">16dp</dimen>
+    <dimen name="status_bar_header_height_keyguard">40dp</dimen>
+    <dimen name="keyguard_carrier_text_margin">16dp</dimen>
+    <dimen name="system_icons_keyguard_padding_end">16dp</dimen>
+    <dimen name="large_screen_shade_header_height">40dp</dimen>
+    <dimen name="large_screen_shade_header_min_height">40dp</dimen>
+
+    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
+    <integer name="config_brightness_ramp_rate_fast">600</integer>
+    <integer name="config_defaultPeakRefreshRate">60</integer>
+    <integer name="config_defaultRefreshRate">0</integer>
+    <integer name="config_defaultRefreshRateInZone">60</integer>
+    <integer name="config_notificationsBatteryMediumARGB">0xFFFF0000</integer>
+    <integer name="config_overrideHasPermanentMenuKey">2</integer>
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
+
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+    <string name="config_qualified_networks_service_package">com.spreadtrum.ims</string>
+    <string name="config_wlan_data_service_package">com.spreadtrum.ims</string>
+    <string name="config_wlan_network_service_package">com.spreadtrum.ims</string>
+    <string name="config_mainBuiltInDisplayCutout">M -544,0 L -544,115 L -382,115 L -382,0 Z</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M -544,0 L -544,115 L -382,115 L -382,0 Z</string>
+
+</resources>
+
