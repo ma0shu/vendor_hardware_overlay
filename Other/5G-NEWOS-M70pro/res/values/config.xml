@@ -140,8 +140,6 @@
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
 
-    <dimen name="config_screenBrightnessSettingMaximumFloat">1.0</dimen>
-    <dimen name="config_screenBrightnessSettingMinimumFloat">0.0</dimen>
     <dimen name="status_bar_height_default">40dp</dimen>
     <dimen name="status_bar_height">40dp</dimen>
     <dimen name="status_bar_height_portrait">40dp</dimen>
