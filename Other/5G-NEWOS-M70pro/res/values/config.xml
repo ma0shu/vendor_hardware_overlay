@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <bool name="config_allowStartActivityForLongPressOnPowerInSetup">true</bool>
-    <bool name="config_cameraDoubleTapPowerGestureEnabled">false</bool>
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_showNavigationBar">true</bool>
-    <bool name="config_showPayPageDoubleTapPowerGestureEnabled">true</bool>
     <bool name="config_supportDoubleTapWake">false</bool>
 
-    <dimen name="navigation_bar_height">36.0dip</dimen>
-    <dimen name="navigation_bar_height_landscape">36.0dip</dimen>
-    <dimen name="rounded_corner_radius">0.0dip</dimen>
-    <dimen name="status_bar_height_default">27.0dip</dimen>
-    <dimen name="status_bar_height_portrait">27.0dip</dimen>
-    <dimen name="status_bar_icon_size">14.0dip</dimen>
-    <dimen name="status_bar_system_icon_size">14.0dip</dimen>
-    <item type="dimen" name="text_line_spacing_multiplier_material">1.4</item>
+    <dimen name="navigation_bar_height">36dp</dimen>
+    <dimen name="navigation_bar_height_landscape">36dp</dimen>
+    <dimen name="rounded_corner_radius">10dp</dimen>
+    <dimen name="status_bar_height_default">27dp</dimen>
+    <dimen name="status_bar_height_portrait">27dp</dimen>
 
-    <integer name="config_doublePressOnPowerBehavior">4</integer>
-    <integer name="config_globalActionsKeyTimeout">500</integer>
-    <integer name="config_longPressOnPowerBehavior">4</integer>
     <integer name="config_screenBrightnessDoze">100</integer>
-    <integer name="config_shortPressOnPowerBehavior">1</integer>
-    <integer name="config_veryLongPressOnPowerBehavior">1</integer>
-    <integer name="config_veryLongPressTimeout">2000</integer>
 
     <string name="config_mainBuiltInDisplayCutout">M 0,0 L -33,0 L 0,22 L 33,0 Z @dp</string>
     <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 0,0 L -33,0 L 0,22 L 33,0 Z @dp</string>
