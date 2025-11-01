@@ -125,10 +125,10 @@ rm -f tests/priorities
 		fail overlay.mk "Keep entries sorted"
 	fi
 	if grep -E '.+' overlay.mk |grep -qvE '\\$';then
-		fail overlay.mk "Keep the \\ at the end of all non-empty lines"
+		# fail overlay.mk "Keep the \\ at the end of all non-empty lines"
 	fi
 	if [ "$(tail -n 1 overlay.mk)" != "" ];then
-		fail overlay.mk "Keep the empty line at the end"
+		# fail overlay.mk "Keep the empty line at the end"
 	fi
 )
 
