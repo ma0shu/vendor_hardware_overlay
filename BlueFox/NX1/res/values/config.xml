@@ -59,6 +59,6 @@
     <dimen name="status_bar_height_portrait">64.0dip</dimen>
     <dimen name="quick_qs_offset_height">64.0dip</dimen>
 
-    <string name="config_mainBuiltInDisplayCutout">M 0,20 L -110,20 L -110,58 L 110,58 L 110,20 Z</string>
-    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 0,20 L -110,20 L -110,58 L 110,58 L 110,20 Z</string>
+    <string name="config_mainBuiltInDisplayCutout">M 0,20 L -120,20 L -120,60 L 120,60 L 120,20 Z</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 0,20 L -120,20 L -120,60 L 120,60 L 120,20 Z</string>
 </resources>
