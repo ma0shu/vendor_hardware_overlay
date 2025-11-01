@@ -124,12 +124,12 @@ rm -f tests/priorities
 	if [ "$sorted" != "$unsorted" ];then
 		fail overlay.mk "Keep entries sorted"
 	fi
-	if grep -E '.+' overlay.mk |grep -qvE '\\$';then
+	# if grep -E '.+' overlay.mk |grep -qvE '\\$';then
 		# fail overlay.mk "Keep the \\ at the end of all non-empty lines"
-	fi
-	if [ "$(tail -n 1 overlay.mk)" != "" ];then
+	# fi
+	# if [ "$(tail -n 1 overlay.mk)" != "" ];then
 		# fail overlay.mk "Keep the empty line at the end"
-	fi
+	# fi
 )
 
 #Check overlay.mk has all overlays
