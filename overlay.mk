@@ -23,7 +23,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-bluefox-nx1 \
 	treble-overlay-bluefox-nx1-systemui \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of b4ad2a2 (clean)
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
@@ -455,5 +458,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
+<<<<<<< HEAD
+>>>>>>> parent of b4ad2a2 (clean)
+=======
 >>>>>>> parent of b4ad2a2 (clean)
 
